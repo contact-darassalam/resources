@@ -3,39 +3,39 @@
     "name": "User Profile",
     "features": [
       {
-        "id": "profile_view",
         "label": "View Profile",
         "description": "Allows users to view their personal profile information.",
         "done": true,
-        "version": "1.0.0"
+        "version": "ALREADY",
+        "required": true
       },
       {
-        "id": "profile_edit",
         "label": "Edit Profile",
         "description": "Enables users to update their profile details.",
         "done": false,
-        "version": "1.2.0"
+        "version": "NEXT",
+        "required": true
       },
       {
-        "id": "profile_picture",
         "label": "Profile Picture",
         "description": "Functionality related to profile picture management.",
         "done": false,
-        "version": "1.3.0",
+        "version": "NEXT",
+        "required": true,
         "features": [
           {
-            "id": "upload_picture",
             "label": "Upload Picture",
             "description": "Allows users to upload a new profile picture.",
             "done": false,
-            "version": "1.3.0"
+            "version": "NEXT",
+            "required": true
           },
           {
-            "id": "remove_picture",
             "label": "Remove Picture",
             "description": "Enables users to remove their current profile picture.",
             "done": false,
-            "version": "1.3.0"
+            "version": "NEXT",
+            "required": true
           }
         ]
       }
@@ -45,39 +45,39 @@
     "name": "Content Management",
     "features": [
       {
-        "id": "content_browse",
         "label": "Browse Content",
         "description": "Allows users to explore available content.",
         "done": true,
-        "version": "1.1.0"
+        "version": "ALREADY",
+        "required": true
       },
       {
-        "id": "content_search",
         "label": "Search Content",
         "description": "Enables users to search for specific content.",
         "done": false,
-        "version": "1.5.0"
+        "version": "LATER",
+        "required": false
       },
       {
-        "id": "content_categories",
         "label": "Content Categories",
         "description": "Allows users to browse content by categories",
         "done": true,
-        "version": "1.4.0",
+        "version": "CURRENT",
+        "required": true,
         "features": [
           {
-            "id": "categories_list",
             "label": "List Categories",
             "description": "List available categories.",
             "done": true,
-            "version": "1.4.0"
+            "version": "CURRENT",
+            "required": true
           },
           {
-            "id": "categories_explore",
             "label": "Explore Category",
             "description": "Allows users to explore the contents of a category.",
             "done": false,
-            "version": "1.4.0"
+            "version": "CURRENT",
+            "required": true
           }
         ]
       }
