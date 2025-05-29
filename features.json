@@ -431,7 +431,7 @@
 
 
 {
-  "name": "لاعدادات العامة",
+  "name": "الاعدادات العامة",
       "features": [{
           "label": "أول يوم في الاسبوع",
           "description": "اختيار أول يوم في الاسبوع (يختلف من بلد لآخر)",
@@ -454,6 +454,121 @@
 
       ]
     },
+
+
+
+    {
+      "name": "اعدادات الحفظ",
+      "features": [{
+          "label": "متابعة الحفظ",
+          "description": "تفعيل أو إيقاف متابعة الحفظ",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "عدد أيام الحفظ",
+          "description": "اختيار عدد أيام الحفظ في الاسبوع (أيام الاستراحة لا تدخل في برمجة الحفظ)",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "مقدار الحفظ الأسبوعي",
+          "description": "اختيار مقدار الحفظ الاسبوعي",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "مرات التكرار للثمن/الصفحة",
+          "description": "اختيار عدد مرات التكرار لكل ثمن (أو صحفة حسب نظام التتبع) حتى يعتبر محفوظا",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        },
+
+        {
+          "label": "مقدار الحفظ ومرات التكرار",
+          "description": "تعيين مقدار الحفظ وعدد مرات التكرار لكل يوم من أيام الحفظ الاسبوع (ضروري لجدولة أو إعادة جدولة الحفظ)",
+          "done": false,
+          "version": "NEXT",
+          "required": true
+         }
+
+      ]
+    },
+
+
+
+
+
+    {
+      "name": "اعدادات مراجعة القريب",
+      "features": [{
+          "label": "متابعة مراجعة القريب",
+          "description": "تفعيل أو إيقاف متابعة مراجعة القريب",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "نظام مراجعة القريب",
+          "description": "نظام مراجعة القريب حسب عدد الأيام أو مقدار المحفوظ القريب",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "عدد الأيام",
+          "description": "عدد أيام ابقاء المحفوظ في دائرة القريب ",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "أيام مراجعة القريب",
+          "description": "تحديد أيام مراجعة القريب",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }
+
+      ]
+    },
+
+
+   {
+      "name": "اعدادات مراجعة البعيد",
+      "features": [{
+          "label": "متابعة مراجعة البعيد",
+          "description": "تفعيل أو إيقاف متابعة مراجعة البعيد",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "نظام مراجعة البعيد",
+          "description": "نظام مراجعة البعيد حسب عدد السور أو الأحزاب أو الأجزاء",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "مدة إتمام مراجعة البعيد",
+          "description": "مدة إتمام مراجعة البعيد",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "طريقة التوزيع",
+          "description": "طريقة التوزيع، إما توزيع تلقائي أو اختياري ",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "أيام مراجعة البعيد",
+          "description": "تحديد أيام مراجعة البعيد",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+     }
+
+      ]
+    },
+
 
 
 
