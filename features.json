@@ -453,46 +453,6 @@
         }
 
       ]
-    },
-
-    {
-      "label": "اعدادات الحفظ",
-      "description": "اعدادات الحفظ",
-      "features": [{
-          "label": "متابعة الحفظ",
-          "description": "تفعيل أو إيقاف متابعة الحفظ",
-          "done": true,
-          "version": "CURRENT",
-          "required": true
-        }, {
-          "label": "عدد أيام الحفظ",
-          "description": "اختيار عدد أيام الحفظ في الاسبوع (أيام الاستراحة لا تدخل في برمجة الحفظ)",
-          "done": true,
-          "version": "CURRENT",
-          "required": true
-        }, {
-          "label": "مقدار الحفظ الأسبوعي",
-          "description": "اختيار مقدار الحفظ الاسبوعي",
-          "done": true,
-          "version": "CURRENT",
-          "required": true
-        }, {
-          "label": "مرات التكرار للثمن/الصفحة",
-          "description": "اختيار عدد مرات التكرار لكل ثمن (أو صحفة حسب نظام التتبع) حتى يعتبر محفوظا",
-          "done": true,
-          "version": "CURRENT",
-          "required": true
-        },
-
-        {
-          "label": "مقدار الحفظ ومرات التكرار",
-          "description": "تعيين مقدار الحفظ وعدد مرات التكرار لكل يوم من أيام الحفظ الاسبوع (ضروري لجدولة أو إعادة جدولة الحفظ)",
-          "done": false,
-          "version": "NEXT",
-          "required": true
-        }
-
-      ]
     }
 
 
