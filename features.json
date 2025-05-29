@@ -236,7 +236,7 @@
           "required": true
         }
       ]
-    },
+    }
 
   ]
 }, {
@@ -567,7 +567,7 @@
           "required": true
         }
       ]
-    },
+    }
 
 
 
@@ -605,7 +605,7 @@
 
 {
     "label": "keep the plan itself when regenerating, change it except startdate",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -614,7 +614,7 @@
 
 {
     "label": "optimize query that returns the element for daily and weekly plan",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -622,7 +622,7 @@
 
 {
     "label": "retest regeneration (sometimes  generate work for dayoff)",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -630,7 +630,7 @@
 
 {
     "label": "fix setting when general setting changes",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -638,11 +638,11 @@
 
 {
     "label": "force regeneration when setting changes",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
-  },
+  }
 
 ]
 }
@@ -650,7 +650,7 @@
 
 
 , {
-  "name": "unorganised backlog
+  "name": "unorganised backlog",
   "features": [
 {
     "label": "didn't done the learning - suggest to report or regenerate",
@@ -659,6 +659,15 @@
     "version": "CURRENT",
     "required": true
   },
+
+{
+    "label": "dashboard notif",
+    "description": "indicate if today work is not done yet, indicate as well if previous works are still not done",
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
 
 {
     "label": "complete view for the learning, specifi when each group will be completed like a cup to win",
@@ -671,7 +680,7 @@
 
 {
     "label": "table order for element group ",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -680,7 +689,7 @@
 
 {
     "label": "didn't done the revision suggest to ...",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -689,7 +698,7 @@
 
 {
     "label": "reason of don't do the work",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -697,7 +706,7 @@
 
 {
     "label": "situation of leearning",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -705,7 +714,7 @@
 
 {
     "label": "onboarding - activate notif with option may be later",
-    "description": ""
+    "description": "",
     "done": false,
     "version": "CURRENT",
     "required": true
@@ -736,7 +745,7 @@
     "done": false,
     "version": "CURRENT",
     "required": true
-  },
+  }
 
 ]
 }
