@@ -498,9 +498,6 @@
     {
       "label": "اعدادات مراجعة القريب",
       "description": "اعدادات مراجعة القريب",
-      "done": false,
-      "version": "LATER",
-      "required": true,
       "features": [{
           "label": "متابعة مراجعة القريب",
           "description": "تفعيل أو إيقاف متابعة مراجعة القريب",
@@ -532,9 +529,6 @@
     {
       "label": "اعدادات مراجعة البعيد",
       "description": "اعدادات مراجعة البعيد",
-      "done": false,
-      "version": "LATER",
-      "required": true,
       "features": [{
           "label": "متابعة مراجعة البعيد",
           "description": "تفعيل أو إيقاف متابعة مراجعة البعيد",
