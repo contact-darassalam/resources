@@ -2,8 +2,8 @@
   "name": "الصفحة الرئيسية",
   "features": [{
     "label": "حصيلة الحفظ",
-    "description": "لمحة عن حصيلة الحفظ",
-    "done": true,
+    "description": "لمحة عن حصيلة الحفظ للحزب أو الجزء الحالي",
+    "done": false,
     "version": "CURRENT",
     "required": true
   }, {
@@ -35,8 +35,8 @@
   "name": " يومي",
   "features": [{
     "label": "الواجب اليومي",
-    "description": "الواجب اليومي من الحفظ. مع إمكانية الانتقال لصفحة تسجيل الحفظ",
-    "done": false,
+    "description": "الواجب اليومي من الحفظ. مع إمكانية الانتقال لصفحة تسجيل الحفظ أو المراجعة",
+    "done": true,
     "version": "NEXT",
     "required": true
   }]
@@ -44,8 +44,8 @@
   "name": "أسبوعي",
   "features": [{
     "label": "الواجب الأسبوعي",
-    "description": "الواجب الاسبوعي من الحفظ. مع إمكانية الانتقال لصفحة تسجيل الحفظ",
-    "done": false,
+    "description": "الواجب الاسبوعي من الحفظ. مع إمكانية الانتقال لصفحة تسجيل الحفظ أو المراجعة",
+    "done": true,
     "version": "NEXT",
     "required": true
   }]
@@ -244,13 +244,13 @@
   "features": [{
       "label": "تسجيل من صفحة يومي",
       "description": "تسجيل من صحفة يومي (التي تعرض فقط واجب الحفظ لليوم)",
-      "done": false,
+      "done": true,
       "version": "LATER",
       "required": true
     }, {
       "label": "تسجيل من صفحة أسبوعي",
       "description": "تسجيل من صحفة أسبوعي (التي تعرض واجب الحفظ للأسبوع). تستعمل لتسجيل الحفظ لأيام الاسبوع الفائتة في حالة نسيان التسجيل أو في حالة استدراك الحفظ",
-      "done": false,
+      "done": true,
       "version": "LATER",
       "required": true
     }, {
@@ -370,7 +370,7 @@
   }, {
     "label": "إعادة جدولة الحفظ",
     "description": "إعادة جدولة مشروع الحفظ في حالة تغيير الاعدادات، عدم احترام جدول الحفظ الحالي أو لأي سبب آخر. الهدف من إعادة جدولة الحفظ هو جعل الامر يسيرا على المستخدم للعودة إلى ركب الحفاظ ولو وجد تعثرا أو فتورا أو أية عقبة اخرى",
-    "done": false,
+    "done": true,
     "version": "NEXT",
     "required": true
   }, {
@@ -400,13 +400,27 @@
     "done": false,
     "version": "LATER",
     "required": true
+  },{
+    "label": "مراجعة الحفظ البعيد",
+    "description": "مراجعة الحفظ البعيد",
+    "done": false,
+    "version": "LATER",
+    "required": true
   }, {
+    "label": "توزيع المحفوظ في مراجعة البعيد",
+    "description": "توزيع المحفوظ في مراجعة البعيد",
+    "done": false,
+    "version": "LATER",
+    "required": true
+  },
+ {
     "label": "مراجعة الحفظ الجديد",
     "description": "مراجعة الحفظ الجديد",
     "done": false,
     "version": "LATER",
     "required": true
-  }, {
+  },
+ {
     "label": "مراجعة خاصة",
     "description": "مراجعة خاصة",
     "done": false,
@@ -482,12 +496,82 @@
     },
 
     {
-      "label": "اعدادات المراجعة",
-      "description": "اعدادت المراجعة",
+      "label": "اعدادات مراجعة القريب",
+      "description": "اعدادات مراجعة القريب",
       "done": false,
       "version": "LATER",
-      "required": true
-    }
+      "required": true,
+      "features": [{
+          "label": "متابعة مراجعة القريب",
+          "description": "تفعيل أو إيقاف متابعة مراجعة القريب",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "نظام مراجعة القريب",
+          "description": "نظام مراجعة القريب حسب عدد الأيام أو مقدار المحفوظ القريب",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "عدد الأيام",
+          "description": "عدد أيام ابقاء المحفوظ في دائرة القريب ",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "أيام مراجعة القريب",
+          "description": "تحديد أيام مراجعة القريب",
+          "done": true,
+          "version": "CURRENT",
+          "required": true
+        }
+      ]
+    },
+
+    {
+      "label": "اعدادات مراجعة البعيد",
+      "description": "اعدادات مراجعة البعيد",
+      "done": false,
+      "version": "LATER",
+      "required": true,
+      "features": [{
+          "label": "متابعة مراجعة البعيد",
+          "description": "تفعيل أو إيقاف متابعة مراجعة البعيد",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "نظام مراجعة البعيد",
+          "description": "نظام مراجعة البعيد حسب عدد السور أو الأحزاب أو الأجزاء",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "مدة إتمام مراجعة البعيد",
+          "description": "مدة إتمام مراجعة البعيد",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "طريقة التوزيع",
+          "description": "طريقة التوزيع، إما توزيع تلقائي أو اختياري ",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }, {
+          "label": "أيام مراجعة البعيد",
+          "description": "تحديد أيام مراجعة البعيد",
+          "done": false,
+          "version": "CURRENT",
+          "required": true
+        }
+      ]
+    },
+
+
+
+
   ]
 }, {
   "name": "خدمات متطورة",
@@ -498,4 +582,166 @@
     "version": "LATER",
     "required": false
   }]
-}]
+}
+
+, {
+  "name": "bugs ",
+  "features": [
+{
+    "label": "fix colors in all app",
+    "description": "",
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "use repetition count for recording",
+    "description": "",
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "keep the plan itself when regenerating, change it except startdate",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+
+{
+    "label": "optimize query that returns the element for daily and weekly plan",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "retest regeneration (sometimes  generate work for dayoff)",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "fix setting when general setting changes",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "force regeneration when setting changes",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+]
+}
+
+
+
+, {
+  "name": "unorganised backlog
+  "features": [
+{
+    "label": "didn't done the learning - suggest to report or regenerate",
+    "description": "",
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "complete view for the learning, specifi when each group will be completed like a cup to win",
+    "description": "",
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+
+{
+    "label": "table order for element group ",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+
+{
+    "label": "didn't done the revision suggest to ...",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+
+{
+    "label": "reason of don't do the work",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "situation of leearning",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "onboarding - activate notif with option may be later",
+    "description": ""
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+
+
+{
+    "label": "give option if the user want to consider it done anyway",
+    "description": "",
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+{
+    "label": "statistics about page or tomon or sura - how much reading, revision, listening etc",
+    "description": "",
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+
+{
+    "label": "control for the user - after the learning - or at any request",
+    "description": "",
+    "done": false,
+    "version": "CURRENT",
+    "required": true
+  },
+
+]
+}
+
+
+
+
+]
