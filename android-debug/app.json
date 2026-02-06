@@ -7,7 +7,7 @@
     },
     "updateUrl": "https://play.google.com/store/apps/details?id=net.darassalam.app",
     "maintenanceMode": false,
-    "privacyPolicyUrl": "privacy.html",
+    "privacyPolicyUrl": "https://raw.githubusercontent.com/contact-darassalam/resources/refs/heads/main/android-debug/privacy.html",
     "supportEmail": "contact.darassalam@gmail.com",
     "websiteUrl": "https://https://www.darassalam.net/",
     "booksUrl": "books.json"
