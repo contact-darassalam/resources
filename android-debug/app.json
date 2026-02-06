@@ -1,19 +1,15 @@
 {
   "app": {
-    "resourceBaseUrl": "",
-    "apiBaseUrl": "api/",
     "appMinSupportedVersion": 1,
     "appLatestVersion": 5,
     "featureFlags": {
-      "syncEnabled": true,
-      "newUI": false
+      "syncEnabled": true
     },
-    "updateUrl": "update.html",
+    "updateUrl": "https://play.google.com/store/apps/details?id=net.darassalam.app",
     "maintenanceMode": false,
     "privacyPolicyUrl": "privacy.html",
-    "supportEmail": "support@yourserver.com"
-  },
-  "books": {
-    "referenceBooksUrl": "reference_books.json"
+    "supportEmail": "contact.darassalam@gmail.com",
+    "websiteUrl": "https://https://www.darassalam.net/",
+    "booksUrl": "books.json"
   }
 }
