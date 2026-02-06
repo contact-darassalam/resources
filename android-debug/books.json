@@ -10,26 +10,6 @@
       "checksum": "AB1469528089FE3FC8B7879F77BB5346494F695A18AAE300F0511D487130642C",
       "sizeBytes": 1736663
     },
-      {
-      "narration": "HAFS",
-      "type": "MOSHAF",
-      "dataVersion": 2,
-      "minAppVersion": 5,
-      "maxAppVersion": null,
-      "filename": "hafsData_v25.csv",
-      "checksum": "AB1469528089FE3FC8B7879F77BB5346494F695A18AAE300F0511D487130642C",
-      "sizeBytes": 1736663
-    },
-      {
-      "narration": "HAFS",
-      "type": "MOSHAF",
-      "dataVersion": 3,
-      "minAppVersion": 3,
-      "maxAppVersion": null,
-      "filename": "hafsData_v23.csv",
-      "checksum": "AB1469528089FE3FC8B7879F77BB5346494F695A18AAE300F0511D487130642C",
-      "sizeBytes": 1736663
-    },
     {
       "narration": "WARSH",
       "type": "MOSHAF",
