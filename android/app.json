@@ -1,0 +1,19 @@
+{
+  "app": {
+    "resourceBaseUrl": "",
+    "apiBaseUrl": "api/",
+    "appMinSupportedVersion": 1,
+    "appLatestVersion": 5,
+    "featureFlags": {
+      "syncEnabled": true,
+      "newUI": false
+    },
+    "updateUrl": "update.html",
+    "maintenanceMode": false,
+    "privacyPolicyUrl": "privacy.html",
+    "supportEmail": "support@yourserver.com"
+  },
+  "books": {
+    "referenceBooksUrl": "reference_books.json"
+  }
+}
