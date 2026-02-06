@@ -1,7 +1,7 @@
 {
   "app": {
-    "appMinSupportedVersion": 1,
-    "appLatestVersion": 5,
+    "appMinSupportedVersion": 9,
+    "appLatestVersion": 10,
     "featureFlags": {
       "syncEnabled": true
     },
