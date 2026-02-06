@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "narration": "HAFS",
+      "type": "MOSHAF",
+      "dataVersion": 1,
+      "minAppVersion": 1,
+      "maxAppVersion": null,
+      "filename": "hafsData_v2.csv",
+      "checksum": "AB1469528089FE3FC8B7879F77BB5346494F695A18AAE300F0511D487130642C",
+      "sizeBytes": 1736663
+    },
+      {
+      "narration": "HAFS",
+      "type": "MOSHAF",
+      "dataVersion": 2,
+      "minAppVersion": 5,
+      "maxAppVersion": null,
+      "filename": "hafsData_v25.csv",
+      "checksum": "AB1469528089FE3FC8B7879F77BB5346494F695A18AAE300F0511D487130642C",
+      "sizeBytes": 1736663
+    },
+      {
+      "narration": "HAFS",
+      "type": "MOSHAF",
+      "dataVersion": 3,
+      "minAppVersion": 3,
+      "maxAppVersion": null,
+      "filename": "hafsData_v23.csv",
+      "checksum": "AB1469528089FE3FC8B7879F77BB5346494F695A18AAE300F0511D487130642C",
+      "sizeBytes": 1736663
+    },
+    {
+      "narration": "WARSH",
+      "type": "MOSHAF",
+      "dataVersion": 1,
+      "minAppVersion": 1,
+      "maxAppVersion": null,
+      "filename": "warshData_v2.csv",
+      "checksum": "AF7037170D295C369557770FE2B71B33DE17E087D64345938B250A22E3D32D6E",
+      "sizeBytes": 1791972
+    }
+  ]
+}
