@@ -3,22 +3,22 @@
     {
       "narration": "HAFS",
       "type": "MOSHAF",
+      "dataVersion": 2,                // <-- NEW version
+      "minAppVersion": 10,             // <-- NOT compatible with app versionCode=9
+      "maxAppVersion": null,
+      "filename": "moshaf/hafsData_v3.csv",
+      "checksum": "SOME_NEW_CHECKSUM",
+      "sizeBytes": 1800000
+    },
+    {
+      "narration": "HAFS",
+      "type": "MOSHAF",
       "dataVersion": 1,
       "minAppVersion": 1,
       "maxAppVersion": null,
       "filename": "moshaf/hafsData_v2.csv",
       "checksum": "AB1469528089FE3FC8B7879F77BB5346494F695A18AAE300F0511D487130642C",
       "sizeBytes": 1736663
-    },
-    {
-      "narration": "WARSH",
-      "type": "MOSHAF",
-      "dataVersion": 1,
-      "minAppVersion": 1,
-      "maxAppVersion": null,
-      "filename": "moshaf/warshData_v2.csv",
-      "checksum": "AF7037170D295C369557770FE2B71B33DE17E087D64345938B250A22E3D32D6E",
-      "sizeBytes": 1791972
     }
   ]
 }
