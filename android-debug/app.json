@@ -1,12 +1,12 @@
 {
-  "fileVersion": 2,
+  "fileVersion": 3,
   "minSupportedVersion": "1.4.0",
   "latestAppVersion": "1.7.0",
   "updateNotificationsEnabled": true,
   "changelog": {
-    "enabled": false
+    "enabled": true
   },
   "vote": {
-    "enabled": false
+    "enabled": true
   }
 }
