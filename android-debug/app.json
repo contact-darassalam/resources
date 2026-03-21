@@ -1,15 +1,12 @@
 {
-  "app": {
-    "appMinSupportedVersion": 9,
-    "appLatestVersion": 10,
-    "featureFlags": {
-      "syncEnabled": true
-    },
-    "updateUrl": "https://play.google.com/store/apps/details?id=net.darassalam.app",
-    "maintenanceMode": false,
-    "privacyPolicyUrl": "https://raw.githubusercontent.com/contact-darassalam/resources/refs/heads/main/android-debug/privacy.html",
-    "supportEmail": "contact.darassalam@gmail.com",
-    "websiteUrl": "https://https://www.darassalam.net/",
-    "booksUrl": "books.json"
+  "fileVersion": 1,
+  "minSupportedVersion": "1.4.0",
+  "latestAppVersion": "1.7.0",
+  "updateNotificationsEnabled": true,
+  "changelog": {
+    "enabled": true
+  },
+  "vote": {
+    "enabled": true
   }
 }
