@@ -1,5 +1,5 @@
 {
-  "fileVersion": 16,
+  "fileVersion": 18,
   "minSupportedVersion": "1.4.0",
   "latestAppVersion": "1.7.0",
   "updateNotificationsEnabled": true,
@@ -7,6 +7,6 @@
     "enabled": true
   },
   "vote": {
-    "enabled": true
+    "enabled": false
   }
 }
