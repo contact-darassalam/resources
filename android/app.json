@@ -1,19 +1,12 @@
 {
-  "app": {
-    "resourceBaseUrl": "",
-    "apiBaseUrl": "api/",
-    "appMinSupportedVersion": 1,
-    "appLatestVersion": 5,
-    "featureFlags": {
-      "syncEnabled": true,
-      "newUI": false
-    },
-    "updateUrl": "update.html",
-    "maintenanceMode": false,
-    "privacyPolicyUrl": "privacy.html",
-    "supportEmail": "support@yourserver.com"
+  "fileVersion": 6,
+  "minSupportedVersion": "1.5.0",
+  "latestAppVersion": "1.7.0",
+  "updateNotificationsEnabled": true,
+  "changelog": {
+    "enabled": true
   },
-  "books": {
-    "referenceBooksUrl": "reference_books.json"
+  "vote": {
+    "enabled": true
   }
 }
