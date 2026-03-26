@@ -2,6 +2,15 @@
   "showForLatestUsersDays": 7,
   "entries": [
     {
+      "version": "1.8.0",
+      "date": "2026-04-04",
+      "title": "not implemented yet",
+      "items": [
+        "recitation",
+        "getting started guide"
+      ]
+    },
+    {
       "version": "1.7.0",
       "date": "2026-03-25",
       "title": "الاستطلاعات وتحسينات صفحة حول التطبيق",
