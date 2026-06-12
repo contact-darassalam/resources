@@ -1,7 +1,7 @@
 {
   "fileVersion": 22,
   "minSupportedVersion": "1.5.0",
-  "latestAppVersion": "2.0.1",
+  "latestAppVersion": "2.2.0",
   "updateNotificationsEnabled": true,
   "changelog": {
     "enabled": true
