@@ -1,0 +1,159 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "advice_intention_001",
+      "type": "advice",
+      "category": "foundations",
+      "tags": ["إخلاص", "نية"],
+      "title": "أخلص النية أولاً",
+      "body": "أول ما ينبغي أن يحرص عليه من يريد حفظ القرآن هو إخلاص النية لله وحده، والبعد عن الرياء وحب السمعة — فالإخلاص هو أساس ثبات الحفظ وبركته.",
+      "bodyTashkeel": "أَوَّلُ مَا يَنْبَغِي أَنْ يَحْرِصَ عَلَيْهِ مَنْ يُرِيدُ حِفْظَ القُرْآنِ هُوَ إِخْلَاصُ النِّيَّةِ لِلَّهِ وَحْدَهُ، وَالبُعْدُ عَنِ الرِّيَاءِ وَحُبِّ السُّمْعَةِ — فَالإِخْلَاصُ هُوَ أَسَاسُ ثَبَاتِ الحِفْظِ وَبَرَكَتِهِ.",
+      "source": null,
+      "active": true
+    },
+    {
+      "id": "advice_no_new_before_old_002",
+      "type": "advice",
+      "category": "revision_discipline",
+      "tags": ["مراجعة", "حفظ جديد"],
+      "title": "لا تتجاوز المقرر قبل إتقانه",
+      "body": "لا تنتقل إلى مقرر حفظ جديد إلا بعد إتمام حفظ المقرر السابق وإتقانه جيدًا — التسرع في الانتقال هو أكثر أسباب تفلت الحفظ لاحقًا.",
+      "bodyTashkeel": null,
+      "source": null,
+      "active": true
+    },
+    {
+      "id": "advice_daily_wird_003",
+      "type": "advice",
+      "category": "consistency",
+      "tags": ["ورد يومي", "مواظبة"],
+      "title": "اجعل للمراجعة وردًا يوميًا ثابتًا",
+      "body": "خصص وردًا يوميًا للمراجعة، ولو جزءًا يسيرًا كل يوم، مع مراجعة أسبوعية أشمل لما حفظت — الاستمرار على القليل خير من الانقطاع بعد الكثير.",
+      "bodyTashkeel": null,
+      "source": null,
+      "active": true
+    },
+    {
+      "id": "advice_understand_meaning_004",
+      "type": "advice",
+      "category": "technique",
+      "tags": ["تدبر", "فهم"],
+      "title": "افهم وتدبر قبل أن تحفظ",
+      "body": "فهم معنى الآيات وتدبرها يعين على استحضارها وقت الحاجة، ويجعل الحفظ أكثر رسوخًا من الحفظ الآلي بلا فهم.",
+      "bodyTashkeel": null,
+      "source": null,
+      "active": true
+    },
+    {
+      "id": "advice_mutashabihat_005",
+      "type": "advice",
+      "category": "technique",
+      "tags": ["متشابهات"],
+      "title": "اعتنِ بالآيات المتشابهة خاصة",
+      "body": "الآيات المتشابهة في اللفظ أكثر ما يختلط على الحافظ لاحقًا — خصص لها انتباهًا إضافيًا عند الحفظ الأول لتقليل الخلط بينها مستقبلًا.",
+      "bodyTashkeel": null,
+      "source": null,
+      "active": true
+    },
+    {
+      "id": "advice_regular_recitation_check_006",
+      "type": "advice",
+      "category": "technique",
+      "tags": ["تسميع"],
+      "title": "لا تعتمد على حفظك وحدك",
+      "body": "اعرض ما حفظته دائمًا على حافظ آخر أو راجعه بالنظر في المصحف — الاعتماد الكامل على الذاكرة وحدها دون تسميع يخفي الأخطاء الصغيرة قبل أن تترسخ.",
+      "bodyTashkeel": null,
+      "source": null,
+      "active": true
+    },
+    {
+      "id": "hadith_khayrukum_001",
+      "type": "hadith",
+      "category": "virtue_of_knowledge",
+      "tags": ["فضل تعلم القرآن"],
+      "title": "خيركم من تعلم القرآن وعلّمه",
+      "body": "قال رسول الله ﷺ: «خيركم من تعلم القرآن وعلّمه».",
+      "bodyTashkeel": null,
+      "source": "رواه البخاري",
+      "active": true
+    },
+    {
+      "id": "hadith_tafalut_002",
+      "type": "hadith",
+      "category": "revision_discipline",
+      "tags": ["ثبات الحفظ", "مراجعة"],
+      "title": "تعاهدوا هذا القرآن",
+      "body": "قال رسول الله ﷺ: «تعاهدوا هذا القرآن، فوالذي نفسي بيده لهو أشد تفلتًا من الإبل في عقلها».",
+      "bodyTashkeel": null,
+      "source": "متفق عليه",
+      "active": true
+    },
+    {
+      "id": "hadith_maher_003",
+      "type": "hadith",
+      "category": "virtue_of_knowledge",
+      "tags": ["فضل الماهر بالقرآن", "المجتهد"],
+      "title": "الماهر بالقرآن مع السفرة الكرام البررة",
+      "body": "قال رسول الله ﷺ: «الماهر بالقرآن مع السفرة الكرام البررة، والذي يقرأ القرآن ويتتعتع فيه وهو عليه شاق له أجران».",
+      "bodyTashkeel": null,
+      "source": "متفق عليه",
+      "active": true
+    },
+    {
+      "id": "hadith_yarfau_004",
+      "type": "hadith",
+      "category": "virtue_of_knowledge",
+      "tags": ["رفعة"],
+      "title": "إن الله يرفع بهذا الكتاب أقوامًا",
+      "body": "عن عمر بن الخطاب رضي الله عنه أن النبي ﷺ قال: «إن الله يرفع بهذا الكتاب أقوامًا ويضع به آخرين».",
+      "bodyTashkeel": null,
+      "source": "رواه مسلم",
+      "active": true
+    },
+    {
+      "id": "dua_rabbi_ishrah_001",
+      "type": "dua",
+      "category": "dua_for_memorization",
+      "tags": ["دعاء قرآني"],
+      "title": "رب اشرح لي صدري",
+      "body": "﴿رَبِّ اشْرَحْ لِي صَدْرِي * وَيَسِّرْ لِي أَمْرِي * وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي * يَفْقَهُوا قَوْلِي﴾",
+      "bodyTashkeel": "﴿رَبِّ اشْرَحْ لِي صَدْرِي * وَيَسِّرْ لِي أَمْرِي * وَاحْلُلْ عُقْدَةً مِّن لِّسَانِي * يَفْقَهُوا قَوْلِي﴾",
+      "source": "سورة طه: ٢٥-٢٨",
+      "active": true
+    },
+    {
+      "id": "dua_thabit_002",
+      "type": "dua",
+      "category": "dua_for_memorization",
+      "tags": ["دعاء تثبيت"],
+      "title": "دعاء تثبيت الحفظ",
+      "body": "اللهم إني أسألك أن تثبّت القرآن الكريم بآياته وكلماته وحروفه في قلبي وفكري، وأن تبعد عني نسيانه وعدم التمكن من استحضاره.",
+      "bodyTashkeel": null,
+      "source": null,
+      "active": true
+    },
+    {
+      "id": "dua_rabee_qalbi_003",
+      "type": "dua",
+      "category": "dua_for_memorization",
+      "tags": ["دعاء"],
+      "title": "اجعل القرآن ربيع قلبي",
+      "body": "اللهم اجعل القرآن ربيع قلبي، ونور صدري، وجلاء حزني.",
+      "bodyTashkeel": null,
+      "source": null,
+      "active": true
+    },
+    {
+      "id": "fact_golden_years_001",
+      "type": "fact",
+      "category": "did_you_know",
+      "tags": ["معلومة"],
+      "title": "السنوات الذهبية للحفظ",
+      "body": "أشار العلماء إلى أن سنوات الحفظ الذهبية تمتد تقريبًا من سن الخامسة إلى الثالثة والعشرين، حين تكون الذاكرة في أوج قوتها — لكن هذا لا يعني أن الحفظ بعدها صعب، بل يحتاج فقط مثابرة أكبر.",
+      "bodyTashkeel": null,
+      "source": null,
+      "active": true
+    }
+  ]
+}
