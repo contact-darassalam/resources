@@ -1,5 +1,5 @@
 {
-  "fileVersion": 31,
+  "fileVersion": 32,
   "minSupportedVersion": "1.5.0",
   "latestAppVersion": "3.2.0",
   "updateNotificationsEnabled": true,
@@ -14,9 +14,9 @@
   },
   "challenges": {
     "enabled": true,
-    "maxOwnedChallenges": 1,
-    "maxParticipants": 20,
-    "maxJoinedChallenges": 2,
+    "maxOwnedChallenges": 2,
+    "maxParticipants": 1,
+    "maxJoinedChallenges": 5,
     "allowedGoogleIds": ["106394863962080910226", "107273164811139548057"]
   }
 }
