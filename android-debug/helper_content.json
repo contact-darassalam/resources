@@ -1,5 +1,5 @@
 ﻿{
-    "version":  5,
+    "version":  6,
     "entries":  [
                     {
                         "id":  "ayah_hijr_9",
@@ -379,7 +379,7 @@
                     },
                     {
                         "id":  "advice_method_same_mushaf",
-                        "type":  "advice",
+                        "type":  "memorization_method",
                         "category":  "طرق الحفظ",
                         "tags":  [
                                      "طرق الحفظ",
@@ -394,7 +394,7 @@
                     },
                     {
                         "id":  "advice_method_small_portion",
-                        "type":  "advice",
+                        "type":  "memorization_method",
                         "category":  "طرق الحفظ",
                         "tags":  [
                                      "طرق الحفظ",
@@ -409,7 +409,7 @@
                     },
                     {
                         "id":  "advice_method_ayah_or_page",
-                        "type":  "advice",
+                        "type":  "memorization_method",
                         "category":  "طرق الحفظ",
                         "tags":  [
                                      "طرق الحفظ",
@@ -424,7 +424,7 @@
                     },
                     {
                         "id":  "advice_method_understand_first",
-                        "type":  "advice",
+                        "type":  "memorization_method",
                         "category":  "طرق الحفظ",
                         "tags":  [
                                      "طرق الحفظ",
@@ -439,7 +439,7 @@
                     },
                     {
                         "id":  "advice_method_teacher_check",
-                        "type":  "advice",
+                        "type":  "memorization_method",
                         "category":  "طرق الحفظ",
                         "tags":  [
                                      "طرق الحفظ",
@@ -454,7 +454,7 @@
                     },
                     {
                         "id":  "advice_method_review_slot",
-                        "type":  "advice",
+                        "type":  "memorization_method",
                         "category":  "طرق الحفظ",
                         "tags":  [
                                      "طرق الحفظ",
@@ -469,7 +469,7 @@
                     },
                     {
                         "id":  "advice_experience_priority",
-                        "type":  "advice",
+                        "type":  "reader_experience",
                         "category":  "تجارب القراء",
                         "tags":  [
                                      "تجارب القراء",
@@ -484,7 +484,7 @@
                     },
                     {
                         "id":  "advice_experience_support",
-                        "type":  "advice",
+                        "type":  "reader_experience",
                         "category":  "تجارب القراء",
                         "tags":  [
                                      "تجارب القراء",
@@ -499,7 +499,7 @@
                     },
                     {
                         "id":  "advice_experience_review_lifelong",
-                        "type":  "advice",
+                        "type":  "reader_experience",
                         "category":  "تجارب القراء",
                         "tags":  [
                                      "تجارب القراء",
@@ -514,7 +514,7 @@
                     },
                     {
                         "id":  "advice_experience_obstacles",
-                        "type":  "advice",
+                        "type":  "reader_experience",
                         "category":  "تجارب القراء",
                         "tags":  [
                                      "تجارب القراء",
@@ -529,7 +529,7 @@
                     },
                     {
                         "id":  "advice_experience_begin_now",
-                        "type":  "advice",
+                        "type":  "reader_experience",
                         "category":  "تجارب القراء",
                         "tags":  [
                                      "تجارب القراء",
