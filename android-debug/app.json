@@ -1,5 +1,5 @@
 ﻿{
-    "fileVersion":  42,
+    "fileVersion":  43,
     "minSupportedVersion":  "1.5.0",
     "latestAppVersion":  "3.3.0",
     "updateNotificationsEnabled":  true,
@@ -15,8 +15,8 @@
                       },
     "challenges":  {
                        "enabled":  true,
-                       "maxOwnedChallenges":  2,
-                       "maxParticipants":  50,
-                       "maxJoinedChallenges":  5
+                       "maxOwnedChallenges":  10,
+                       "maxParticipants":  100,
+                       "maxJoinedChallenges":  10
                    }
 }
