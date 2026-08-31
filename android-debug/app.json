@@ -1,6 +1,6 @@
 ﻿{
-    "fileVersion":  44,
-    "minSupportedVersion":  "3.3.0",
+    "fileVersion":  45,
+    "minSupportedVersion":  "3.3.1",
     "latestAppVersion":  "3.3.1",
     "updateNotificationsEnabled":  true,
     "changelog":  {
