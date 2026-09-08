@@ -1,22 +1,22 @@
 ﻿{
-    "fileVersion":  46,
-    "minSupportedVersion":  "3.0.0",
-    "latestAppVersion":  "3.3.1",
-    "updateNotificationsEnabled":  true,
-    "changelog":  {
-                      "enabled":  true,
-                      "showForLatestUsersDays":  7
-                  },
-    "vote":  {
-                 "enabled":  false
-             },
-    "helperContent":  {
-                          "enabled":  true
-                      },
-    "challenges":  {
-                       "enabled":  true,
-                       "maxOwnedChallenges":  10,
-                       "maxParticipants":  100,
-                       "maxJoinedChallenges":  10
-                   }
+    "fileVersion": 43,
+    "minSupportedVersion": "3.0.0",
+    "latestAppVersion": "3.3.0",
+    "updateNotificationsEnabled": true,
+    "changelog": {
+        "enabled": true,
+        "showForLatestUsersDays": 7
+    },
+    "vote": {
+        "enabled": false
+    },
+    "helperContent": {
+        "enabled": true
+    },
+    "challenges": {
+        "enabled": true,
+        "maxOwnedChallenges": 10,
+        "maxParticipants": 100,
+        "maxJoinedChallenges": 10
+    }
 }
