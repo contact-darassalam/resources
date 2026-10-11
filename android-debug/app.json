@@ -1,5 +1,5 @@
 ﻿{
-    "fileVersion": 52,
+    "fileVersion": 53,
     "minSupportedVersion": "3.0.0",
     "latestAppVersion": "3.4.0",
     "updateNotificationsEnabled": true,
@@ -23,5 +23,21 @@
         "primaryBaseUrl": "https://everyayah.com/data/",
         "fallbackBaseUrl": "https://cdn.islamic.network/quran/audio/",
         "minFreeMb": 500
+    },
+    "liveSessions": {
+        "enabled": true,
+        "heartbeatSeconds": 60,
+        "recitation": {
+            "enabled": true
+        },
+        "hifz": {
+            "enabled": true
+        },
+        "reading": {
+            "enabled": true
+        },
+        "quiz": {
+            "enabled": true
+        }
     }
 }
