@@ -1,5 +1,5 @@
 ﻿{
-    "fileVersion": 54,
+    "fileVersion": 55,
     "minSupportedVersion": "3.0.0",
     "latestAppVersion": "3.4.0",
     "updateNotificationsEnabled": true,
@@ -37,7 +37,7 @@
             "enabled": true
         },
         "quiz": {
-            "enabled": false
+            "enabled": true
         }
     }
 }
