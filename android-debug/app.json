@@ -1,5 +1,5 @@
 ﻿{
-    "fileVersion": 55,
+    "fileVersion": 56,
     "minSupportedVersion": "3.0.0",
     "latestAppVersion": "3.4.0",
     "updateNotificationsEnabled": true,
@@ -22,6 +22,8 @@
     "audio": {
         "primaryBaseUrl": "https://everyayah.com/data/",
         "fallbackBaseUrl": "https://cdn.islamic.network/quran/audio/",
+        "suraFileBaseUrl": "https://cdn.mp3quran.net/audio/",
+        "timingUrl": "https://www.mp3quran.net/api/v3/ayat_timing",
         "minFreeMb": 500
     },
     "liveSessions": {
@@ -38,6 +40,18 @@
         },
         "quiz": {
             "enabled": true
+        }
+    },
+    "recitation": {
+        "tajweedRemarks": {
+            "enabled": false,
+            "length": true,
+            "ghunna": true,
+            "qalqala": false,
+            "ikhfaIqlab": true,
+            "shadda": true,
+            "emphatic": true,
+            "other": false
         }
     }
 }
