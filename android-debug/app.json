@@ -1,5 +1,5 @@
 ﻿{
-    "fileVersion": 63,
+    "fileVersion": 64,
     "minSupportedVersion": "3.0.0",
     "latestAppVersion": "4.0.0",
     "updateNotificationsEnabled": true,
@@ -50,6 +50,8 @@
         "paceRedCharsPerSecond": 15.5,
         "paceSilenceSeconds": 3,
         "paceEnterSeconds": 3.5,
+        "secondChance": true,
+        "secondChanceWords": 10,
         "tajweedRemarks": {
             "enabled": false,
             "length": true,
