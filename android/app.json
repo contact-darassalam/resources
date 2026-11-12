@@ -52,6 +52,7 @@
         "paceEnterSeconds": 3.5,
         "secondChance": false,
         "secondChanceWords": 10,
+        "flagReviewSureDistance": 0.9,
         "tajweedRemarks": {
             "enabled": false,
             "length": true,
