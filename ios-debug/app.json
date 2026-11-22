@@ -1,7 +1,7 @@
 {
-    "fileVersion": 1,
+    "fileVersion": 2,
     "minSupportedVersion": "4.3.0",
-    "latestAppVersion": "4.3.0",
+    "latestAppVersion": "4.3.1",
     "updateNotificationsEnabled": true,
     "changelog": {
         "enabled": true,
