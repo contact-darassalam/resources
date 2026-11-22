@@ -1,0 +1,70 @@
+{
+    "fileVersion": 1,
+    "minSupportedVersion": "4.3.0",
+    "latestAppVersion": "4.3.0",
+    "updateNotificationsEnabled": true,
+    "changelog": {
+        "enabled": true,
+        "showForLatestUsersDays": 7
+    },
+    "vote": {
+        "enabled": false
+    },
+    "helperContent": {
+        "enabled": true
+    },
+    "challenges": {
+        "enabled": true,
+        "maxOwnedChallenges": 10,
+        "maxParticipants": 100,
+        "maxJoinedChallenges": 10
+    },
+    "accounts": {
+        "maxSecondary": 10
+    },
+    "audio": {
+        "primaryBaseUrl": "https://everyayah.com/data/",
+        "fallbackBaseUrl": "https://cdn.islamic.network/quran/audio/",
+        "suraFileBaseUrl": "https://cdn.mp3quran.net/audio/",
+        "timingUrl": "https://www.mp3quran.net/api/v3/ayat_timing",
+        "minFreeMb": 500
+    },
+    "liveSessions": {
+        "enabled": true,
+        "heartbeatSeconds": 60,
+        "recitation": {
+            "enabled": true
+        },
+        "hifz": {
+            "enabled": true
+        },
+        "reading": {
+            "enabled": true
+        },
+        "quiz": {
+            "enabled": true
+        }
+    },
+    "recitation": {
+        "pauseRestartSeconds": 1.0,
+        "paceFastCharsPerSecond": 14.5,
+        "paceWindowSeconds": 8,
+        "paceHoldSeconds": 5,
+        "paceRedCharsPerSecond": 16.5,
+        "paceSilenceSeconds": 3,
+        "paceEnterSeconds": 3.5,
+        "secondChance": false,
+        "secondChanceWords": 10,
+        "flagReviewSureDistance": 0.9,
+        "tajweedRemarks": {
+            "enabled": false,
+            "length": true,
+            "ghunna": true,
+            "qalqala": false,
+            "ikhfaIqlab": true,
+            "shadda": true,
+            "emphatic": true,
+            "other": false
+        }
+    }
+}
