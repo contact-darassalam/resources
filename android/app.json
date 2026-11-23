@@ -19,6 +19,9 @@
         "maxParticipants": 100,
         "maxJoinedChallenges": 10
     },
+    "accounts": {
+        "maxSecondary": 10
+    },
     "audio": {
         "primaryBaseUrl": "https://everyayah.com/data/",
         "fallbackBaseUrl": "https://cdn.islamic.network/quran/audio/",
