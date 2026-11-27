@@ -1,18 +1,6 @@
 {
-  "version": 28,
+  "version": 29,
   "notifications": [
-    {
-      "id": "t-inbox-restore",
-      "revision": 1,
-      "title": "[تجربة] إشعار للاستعادة",
-      "summary": "ملخص إشعار الاستعادة",
-      "body": "نص تجريبي لحالة الاستعادة.",
-      "fire": {
-        "date": "2026-11-27",
-        "time": "08:00"
-      },
-      "displayOnDashboard": false
-    },
     {
       "id": "soon-4.3.0-main-account",
       "revision": 1,
