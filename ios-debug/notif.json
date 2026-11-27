@@ -1,17 +1,4 @@
 {
-  "version": 7,
-  "notifications": [
-    {
-      "id": "t-inbox-restore",
-      "revision": 1,
-      "title": "[تجربة] إشعار قبل الاستعادة",
-      "summary": "ملخص إشعار الاستعادة",
-      "body": "نص تجريبي لاختبار صندوق الإشعارات.\n\nسطر ثانٍ من النص.",
-      "fire": {
-        "date": "2026-11-27",
-        "time": "08:00"
-      },
-      "displayOnDashboard": true
-    }
-  ]
+  "version": 8,
+  "notifications": []
 }
